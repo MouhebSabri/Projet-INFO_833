@@ -14,6 +14,7 @@ public class DHTNode implements EDProtocol{
 	public int id_transp;
 	private boolean addingNode = false; // on utilise un booléen pour savoir si on est en train d'ajouter un noeuds et si c'est le cas
 	private Queue<Message> messQueue ; // file d'attente dans laquelle on stocke les messages entre le moment où je leave et le moment où
+	public ArrayList<Integer> list_id;
 
 	Random random = new Random();
     //objet couche transport
@@ -38,6 +39,9 @@ public class DHTNode implements EDProtocol{
 		System.out.println("mypid = "+ this.mypid);
 		this.transport = null;
 	}
+	
+	public void setIdList(ArrayList<Integer> list_id) {this.list_id = list_id;	}
+	
 	// on règle les voisins du noeuds
 	
 	
@@ -84,7 +88,7 @@ public class DHTNode implements EDProtocol{
     
     private void root() {}
     public void processEvent( Node node, int pid, Object event ) {
-    	this.receive((Message)event);
+    	this.receive((Message)event, node);
         }
 
     //retourne le noeud courant

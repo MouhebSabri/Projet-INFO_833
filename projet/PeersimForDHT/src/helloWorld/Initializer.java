@@ -24,6 +24,7 @@ public class Initializer implements peersim.core.Control {
     private DHTNode mynode;
     
     private ArrayList<DHTNode> DHT = new ArrayList<>();
+    public ArrayList<Integer> list_id = new ArrayList<>();
 	
     private int helloWorldPid;
 
@@ -73,6 +74,7 @@ emitter.setTransportLayer(0, 0);
 		mynode = (DHTNode)currentNode.getProtocol(this.helloWorldPid);
 		mynode.setTransportLayer(i,randNum);
 		DHT.add(mynode);
+		list_id.add(randNum);
 	}
 	// on trie les noeuds et on attribue à chacun ses voisins
 	DHT.sort((Comparator<? super DHTNode>) new Comparator<DHTNode>() {
@@ -82,16 +84,19 @@ emitter.setTransportLayer(0, 0);
 	    }
 	});
 	
-	DHT.get(0).setLeftNeighboor(DHT.get(DHT.size()-1));
-	DHT.get(0).setRightNeighboor(DHT.get(0));
+	DHT.get(1).setLeftNeighboor(DHT.get(DHT.size()-1));
+	DHT.get(1).setRightNeighboor(DHT.get(2));
+	DHT.get(1).setIdList(list_id);
 
 	
 	DHT.get(DHT.size()-1).setRightNeighboor(DHT.get(0));
 	DHT.get(DHT.size()-1).setLeftNeighboor(DHT.get(DHT.size()-2));
+	DHT.get(DHT.size()-1).setIdList(list_id);
 	
 	for(int i =1; i<DHT.size()-1; i++) {
 		DHT.get(i).setRightNeighboor(DHT.get(i-1));
 		DHT.get(i).setRightNeighboor(DHT.get(i+1));
+		DHT.get(i).setIdList(list_id);
 	}
 
 	//pour chaque noeud, on fait le lien entre la couche applicative et la couche transport
