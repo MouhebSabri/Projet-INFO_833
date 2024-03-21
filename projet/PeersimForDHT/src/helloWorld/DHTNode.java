@@ -67,28 +67,39 @@ public class DHTNode implements EDProtocol{
     }
 
     //affichage a la reception
-    private void receive(Message msg, Node dest) {
+    private void receive(Message msg ) {
     	if(this.addingNode == true) {this.messQueue.add(msg);}
     	
-    	else {System.out.println(this + ": Received " + msg.getContent());
-    		if (this.getID()<dest.getID()) {
-    			this.send(msg, dest);
+    	else {
+    		if (this.getID()<msg.getID()) {
     		}
-    		int rand =random.nextInt(1,100); 
-    		if (rand<=15) {
-    			this.send(msg, (Node) this);
+    		else if(this.getID()<msg.getID()) {
+    			this.send(msg,(Node) this.rightNeighboor);
     		}
-    		else if(rand>=75) {
-    			this.send(msg, (Node) this);
+    		else {
+    			System.out.println(this + ": Received " + msg.getContent());
+    			int rand =random.nextInt(1,100); 
+    			if (rand<=15) {
+        			this.send(msg, (Node) this);
+        		}
+        		else if(rand>=75) {
+        			this.send(msg, (Node) this);
+        		}
     		}
+    		
+    		
     	}
     }
     
     private void root_mess(Message mess) {}
     
-    private void root() {}
+    private void root() {// fonction qui redirige les message après qu'un noeuds est été ajouté
+    	while(!this.messQueue.isEmpty()) {
+    		receive(this.messQueue.poll());
+    	}
+    } 
     public void processEvent( Node node, int pid, Object event ) {
-    	this.receive((Message)event, node);
+    	this.receive((Message)event);
         }
 
     //retourne le noeud courant

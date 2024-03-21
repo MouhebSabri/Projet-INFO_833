@@ -24,4 +24,5 @@ public class Message {
 	return this.type;
     }
     
+    public int getID() {return this.id_dest_finale;}
 }
