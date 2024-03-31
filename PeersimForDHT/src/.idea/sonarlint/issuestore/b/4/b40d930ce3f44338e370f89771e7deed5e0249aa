@@ -1,0 +1,9 @@
+
+x
+java:S1488("]Immediately return this expression instead of assigning it to the temporary variable "dolly".(³÷ıÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ŠÍéËûÿÿÿÿ
+i
+java:S2975&"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(²ÈŞ
+^
+java:S1182&"HUse super.clone() to create and seed the cloned instance to be returned.(²ÈŞ
+@	java:S106;"+Replace this use of System.out by a logger.(Ë·—¡

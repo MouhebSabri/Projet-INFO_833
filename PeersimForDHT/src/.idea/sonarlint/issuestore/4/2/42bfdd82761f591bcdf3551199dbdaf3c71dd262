@@ -1,0 +1,12 @@
+
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡êÐÊùÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ŠÍéËûÿÿÿÿ
+l	java:S116	"RRename this field "list_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(š’ªÝüÿÿÿÿ
+3
+java:S2119"Save and re-use this "Random".(¼ÝÅf
+C	java:S108")Either remove or fill this block of code.(Ò¢ÛŒøÿÿÿÿ
+K
+java:S1068
+"0Remove this unused "tailleRandom" private field.(íÄ­íûÿÿÿÿ
+@
+java:S1068"*Remove this unused "dhtPid" private field.(“”¼—

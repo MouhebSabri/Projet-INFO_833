@@ -1,0 +1,58 @@
+
+
+java:S1192"FDefine a constant instead of duplicating this literal "RIGHT" 4 times.(§İÈüıÿÿÿÿ8Šİ¦¯é1J$b9666f18-fbad-44c7-b319-86565c80ff15
+ª
+java:S1319"gThe type of "list_id" should be an interface such as "List" rather than the implementation "ArrayList".(û¦ö¥8Œİ¦¯é1J$d24a4c30-f43c-4bcc-98f5-ed6a6f5a47da
+¸
+java:S1319"pThe type of "list_node_to_add" should be an interface such as "List" rather than the implementation "ArrayList".(Ï½×¶úÿÿÿÿ8Œİ¦¯é1J$9c816478-707b-4373-b557-e0462069d32a
+“	java:S1178"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ş¥åê8İ¦¯é1J$2a45deef-01ac-494c-8f8a-21fe9664d481
+˜	java:S1179"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÚŒØÈşÿÿÿÿ8İ¦¯é1J$3063e41c-3b60-453b-aef2-5e896ce234a6
+“	java:S117C"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£ä‹ó8İ¦¯é1J$8fbc308b-c4db-4bed-8484-e0737432d991
+˜	java:S117H"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ù×¹ãøÿÿÿÿ8İ¦¯é1J$68a19d7e-9075-4519-b84a-01057cef17ee
+”	java:S117¨"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øÀù½8İ¦¯é1J$dbc1a1e2-1575-4448-b508-ad6a40c6f684
+™	java:S117©"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øøÃ¥øÿÿÿÿ8İ¦¯é1J$a5a2947f-70d5-4425-a120-4b52d61f0254
+¡
+java:S1488Ä"]Immediately return this expression instead of assigning it to the temporary variable "clone".(öÍÈ“8İ¦¯é1J$f60b3946-f6cd-4f86-88d0-b6747594a6e5
+
+java:S1104"UMake id_transp a static final constant or non-public and provide accessors if needed.(Ğ±½Éıÿÿÿÿ8İ¦¯é1J$ecb317ae-2d40-448a-8efc-d2f934d69c7f
+–
+java:S1104"SMake list_id a static final constant or non-public and provide accessors if needed.(û¦ö¥8İ¦¯é1J$6c78bae7-84a6-4728-bec3-10bb3978b047
+¤
+java:S1104"\Make list_node_to_add a static final constant or non-public and provide accessors if needed.(Ï½×¶úÿÿÿÿ8İ¦¯é1J$66ce4da6-4e96-4f57-81fa-07b51b448502
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ŠÍéËûÿÿÿÿ8“İ¦¯é1J$bb0b8d3f-c868-4270-aa4b-5b29d2d67201
+™
+java:S1128"QRemove this unnecessary import: java.lang classes are always implicitly imported.(Š‘…ûıÿÿÿÿ8¡İ¦¯é1J$93d91882-71c6-4bc0-9312-1b6b5111efd9
+›	java:S116"TRename this field "id_transp" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ğ±½Éıÿÿÿÿ8¢İ¦¯é1J$9d0bf4e2-0a19-44c0-837a-e3bdc0835386
+”	java:S116"RRename this field "list_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(û¦ö¥8¢İ¦¯é1J$92eb8e10-1a54-4aa1-931a-3617f5de674b
+¢	java:S116"[Rename this field "list_node_to_add" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ï½×¶úÿÿÿÿ8¢İ¦¯é1J$15c1a62a-42a8-4c42-9f2e-811e996a7eb8
+–	java:S116 "TRename this field "list_data" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ö›Š8¢İ¦¯é1J$2a5ce524-5407-48cd-9537-c21bf33d69d1
+	java:S116+"MRename this field "ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÆÌèš8¢İ¦¯é1J$bf80e864-5468-449a-9086-5b17bab6a0a6
+Ê
+java:S1186…"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(øùÚ·úÿÿÿÿ8£İ¦¯é1J$adb35c83-73c4-45a5-b158-c442e51c167e
+r	java:S1065"+Replace this use of System.out by a logger.(»¹ö¨øÿÿÿÿ8¹İ¦¯é1J$c693140d-3a6e-4586-bbff-b02765b99e16
+~	java:S125P"<This block of commented-out lines of code should be removed.(ßÄŠ²8Äİ¦¯é1J$79c993d4-6eaf-4266-8954-c8a17c07f3d2
+~	java:S125V"<This block of commented-out lines of code should be removed.(ËëÚ“8Îİ¦¯é1J$729f0e05-2bcf-4a44-a76e-89c75fdc20a4
+m	java:S106h"+Replace this use of System.out by a logger.(Ë·—¡8Óİ¦¯é1J$bed2c143-9e5e-43a7-b1cb-a85e6bd02526
+–	java:S100…"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øùÚ·úÿÿÿÿ8Øİ¦¯é1J$6821ef46-b1d9-481f-ac92-2252fea9fb84
+t
+java:S1172…"+Remove this unused method parameter "mess".(øùÚ·úÿÿÿÿ8Ùİ¦¯é1J$764285f4-46c4-4160-b309-3333b6244514
+‘	java:S100†"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ì¡ÿ·8Ùİ¦¯é1J$ea60e8bd-06a8-4abd-aeb6-679ac1cb1ca3
+‘	java:S100•"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸‡ùÄ8Íğ¦¯é1J$94d75fec-d695-4bf4-a3b2-ddb6b74ef462
+s	java:S106"+Replace this use of System.out by a logger.(Š€æ¦ùÿÿÿÿ8Ñğ¦¯é1J$74270c85-471f-4b7b-a904-cca38b7335e5
+–	java:S100¡"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹ÊÙÑøÿÿÿÿ8Ñğ¦¯é1J$c0d5cd80-fe2a-4a9a-944f-b750ebe58d41
+—
+java:S2975Á"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(²ÈŞ8Ûğ¦¯é1J$c2cc5e80-494a-420b-9a17-989d2037edb1
+„	java:S125Ö"<This block of commented-out lines of code should be removed.(¢‡Ê½ûÿÿÿÿ8ãğ¦¯é1J$ecfe2d8e-a1a4-482c-bc98-ebb71f45a911
+„	java:S125Ú"<This block of commented-out lines of code should be removed.(Ä·Ò®ıÿÿÿÿ8äğ¦¯é1J$05f1a765-7638-4257-a2aa-dbeec6520e7c
+	java:S125á"<This block of commented-out lines of code should be removed.(¨Ä÷«8ÿİ¦¯é1J$ad60d369-476a-475b-98f4-e0df92e2efa1
+	java:S125â"<This block of commented-out lines of code should be removed.(úı¼Ï8Ş¦¯é1J$03bf70dc-38be-46bb-877f-5e62e7e93b96
+„	java:S125ã"<This block of commented-out lines of code should be removed.(Ğ´ØÊşÿÿÿÿ8éğ¦¯é1J$6a18610d-310e-4403-bd5c-1c8b263fbaa7
+~	java:S125ç"<This block of commented-out lines of code should be removed.(¬©‡8éğ¦¯é1J$08e1bfa7-ca23-4477-af15-38dfa86c3758
+s
+java:S1068"+Remove this unused "Logger_" private field.(¹¸¨æüÿÿÿÿ8ˆŞ¦¯é1J$cdff5f5b-6c09-446e-8697-b6b4a70cd64f
+r
+java:S1068)"*Remove this unused "prefix" private field.(ë¾±ıÿÿÿÿ8‰Ş¦¯é1J$3ad5fa3c-99be-4b57-80a4-19209c75ebea
+s
+java:S1068,"+Remove this unused "voisins" private field.(åöƒ–ùÿÿÿÿ8‰Ş¦¯é1J$8d6fda39-c5c1-42c1-8598-0ca64e412bfe
+w
+java:S1144…".Remove this unused private "root_mess" method.(øùÚ·úÿÿÿÿ8ŠŞ¦¯é1J$3d1c8b7c-4cd2-4b8b-b49d-a49ae25c5263

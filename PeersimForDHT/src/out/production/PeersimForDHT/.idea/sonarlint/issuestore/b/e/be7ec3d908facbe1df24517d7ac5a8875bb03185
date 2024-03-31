@@ -1,0 +1,37 @@
+
+¨
+java:S1319"gThe type of "list_id" should be an interface such as "List" rather than the implementation "ArrayList".(ÏÌþÝýÿÿÿÿJ$84245600-89d6-4931-afe8-de5540f06846
+Œ	java:S117#"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²èÏJ$42b3c971-3fbe-4e30-9b18-46fb2266bb79
+d
+java:S1604-"(Make this anonymous inner class a lambda(â™¡èJ$09ca6f78-00fd-4e1f-82ec-13bc6a558756
+k
+java:S1604W"(Make this anonymous inner class a lambda(â™¡è8™­Õ¡é1J$b3600300-e3ec-4aa2-b42f-6d397f4d2629
+”
+java:S1104"SMake list_id a static final constant or non-public and provide accessors if needed.(ÏÌþÝýÿÿÿÿJ$fa915301-62fb-4c9c-8537-6b2754c8a552
+š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ŠÍéËûÿÿÿÿJ$74aeed78-456f-49f5-9c2a-6abe343ee74c
+‰	java:S116"NRename this field "DHT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³øÊÑJ$88a582b5-c58d-4497-be07-a5b0fb1b3ed3
+’	java:S116"RRename this field "list_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÏÌþÝýÿÿÿÿJ$42a0f82a-46df-49a1-9f78-3e43acedae3c
+˜	java:S116"QRename this field "DHTPid" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(É”Ôúýÿÿÿÿ8±–³è1J$e43f6775-23e9-46da-9896-42a93cde3379
+f	java:S106$"+Replace this use of System.out by a logger.(™–ßJ$1999c64f-ed6b-4e3c-ac4c-f6de46e984b5
+f	java:S1062"+Replace this use of System.out by a logger.(È›ÀƒJ$78479d99-6452-4cb4-b480-864339a6b6cf
+}
+java:S1854>"<Remove this useless assignment to local variable "helloMsg".(ÐÇ¦ýÿÿÿÿJ$8b9ad718-facb-431a-bc1d-d56cd16edb83
+a
+java:S16597"%Declare "current" on a separate line.(¢×ëŽJ$7a5946e0-533f-40e3-bfc5-c8d13bc57907
+h
+java:S14817",Remove this unused "current" local variable.(¢×ëŽJ$47f07aca-b6d5-4319-a44d-ebaa08d76545
+j
+java:S14818")Remove this unused "dest" local variable.(¬žõÝúÿÿÿÿJ$2ca9b1b8-50bf-4e0a-afbf-d95199c63584
+h
+java:S14819"-Remove this unused "helloMsg" local variable.(´Éô9J$947082ab-6116-496d-991c-60194a9648bf
+f	java:S106@"+Replace this use of System.err by a logger.(¹ãÇJ$304a8abe-b745-45ad-b6b2-89d408499360
+r	java:S106T"+Replace this use of System.out by a logger.(âŸ¾Âûÿÿÿÿ8É­Õ¡é1J$db47e506-5a83-4ffe-9e4e-074c80afa6a5
+r	java:S106]"+Replace this use of System.out by a logger.(ÉÂ¦Üüÿÿÿÿ8Í­Õ¡é1J$4c81d784-183b-4ec3-96d0-5c3cec3fc2fa
+r	java:S106b"+Replace this use of System.out by a logger.(ªÓ¼áþÿÿÿÿ8Ï­Õ¡é1J$e65e0425-80cf-4d24-8c74-0e57f851d0ea
+r	java:S106h"+Replace this use of System.out by a logger.(ªÓ¼áþÿÿÿÿ8Ò­Õ¡é1J$a98577a7-d983-41d6-b957-7e8a0c88566c
+r	java:S106n"+Replace this use of System.out by a logger.(ªÓ¼áþÿÿÿÿ8Ô­Õ¡é1J$eb816113-833d-4d0a-9f0e-a0c7eb137453
+ƒ	java:S125q"<This block of commented-out lines of code should be removed.(ÍªˆÝøÿÿÿÿ8Õ­Õ¡é1J$02825157-96cb-4f07-901a-43201a540143
+m	java:S106x"+Replace this use of System.out by a logger.(È›Àƒ8Ö­Õ¡é1J$1552e0da-81a7-454f-a439-895eae157862
+s	java:S106Ž"+Replace this use of System.out by a logger.(þà‰ªøÿÿÿÿ8Ø­Õ¡é1J$4d3b412e-1af8-4546-9a59-6c3cb25bcf60
+„	java:S125€"<This block of commented-out lines of code should be removed.(ìÈÙøýÿÿÿÿ8Ø­Õ¡é1J$2a89f6ea-190d-4e83-9809-195d6ccf65a5
+	java:S125‡"<This block of commented-out lines of code should be removed.(Ú™á´8Ù­Õ¡é1J$cbd95bce-50df-4576-94d6-9c66f506302f

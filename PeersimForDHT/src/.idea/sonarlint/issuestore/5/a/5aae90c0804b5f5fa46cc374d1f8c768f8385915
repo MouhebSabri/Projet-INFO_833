@@ -1,0 +1,6 @@
+
+[
+java:S1700"Rename field "data"(©»ÄÍıÿÿÿÿ8İí°é1J$9390036e-e59d-4a2c-910d-8aa594b75c9c
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ŠÍéËûÿÿÿÿ8ßí°é1J$b7e1605e-cbc6-41ca-b457-3f0d8ca62756
+	java:S116"MRename this field "ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÙÒŸ8÷í°é1J$2389066e-9401-4322-adb0-ad945561780b
+•	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éÓâ”úÿÿÿÿ8„î°é1J$dd8f19c4-41d9-4ca3-a289-35552c838a0a

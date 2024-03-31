@@ -1,0 +1,13 @@
+
+˜	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éâÂ„ÿÿÿÿÿ8Ãß‘¯é1J$cc9a5496-4e61-4558-87f7-d0bfd93f0757
+˜	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëÁŸ–ùÿÿÿÿ8Ãß‘¯é1J$2e509874-3669-4e4f-b050-61b43a739ee3
+˜	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§ª¶¤ûÿÿÿÿ8Ãß‘¯é1J$3ab1ec7c-fdd8-4806-add1-9c5a9e4efd34
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ŠÍéËûÿÿÿÿ8Æß‘¯é1J$22cbf689-a717-4acb-86b6-81ad204a8db2
+ 	java:S116"YRename this field "id_dest_finale" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æ÷É÷şÿÿÿÿ8Ëß‘¯é1J$2bf248db-ae69-4104-b047-5bed71696192
+	java:S116"VRename this field "node_to_add" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ıÁ«ùøÿÿÿÿ8Ëß‘¯é1J$ad909acb-6f1b-4695-8928-aaae7875312e
+
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(»İáÉúÿÿÿÿ8Ğß‘¯é1J$0da4f4d3-5a66-42cf-96e9-5ccadbb3a542
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(Íıº¶øÿÿÿÿ8Ñß‘¯é1J$b20d2cd1-df45-4726-b7ca-04db9fdb7f89
+m
+java:S1172("*Remove this unused method parameter "qqc".(Ğó—8Õß‘¯é1J$3f5f3ece-de3b-4507-aab9-fc336643d7fd
+~	java:S1256"<This block of commented-out lines of code should be removed.(î£Ä8Ùß‘¯é1J$e375b9ae-a8bc-43c4-8c45-45d53fd5bd72

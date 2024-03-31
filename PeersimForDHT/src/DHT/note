@@ -1,0 +1,43 @@
+
+###############join##############
+pour faire de la join, on envoi le message à travers la couche transport
+
+on peut ajouté vque si on est pas déjà en train d'en ajouter un autre.
+
+###########################################################
+
+
+
+chaque data est représenté par un message est un Id, l'Id est généré aléatoirement 
+
+on crée une data à la reception du message, on va considérer que on stocke des information suite à la réception de message;
+
+chaque noeuds posséde une liste qui correspond au différentes data qu'il stocke
+
+#################PUT####################
+
+Chaque donné est associé à un noeuds, le noeuds qui stocke la data est le noeuds qui est le plus proche de l'ID de la data
+
+######################################################
+
+#################GET#####################
+pour réaliser la fonction GET, on va considérer qu 'on recherche une data par un ID.
+
+On devra crée une fonction pour router les données
+cette fonction prendra en argument celui qui request la data. pour pouvoir lui transmettre par la suite
+
+Pour transférer la data, il peut être intéressant de 
+#########################################################
+
+
+
+
+pour accéder à la data on utilise l'accésseur get_id_data et pour récupérer la data avec get_data
+
+Comment gérer quand un noeuds quitte?
+idée repartir sur l'algorithme pour stocker le noeuds
+
+Si un noeuds avec un ID plus proche rejoint, comment on gére?
+
+
+

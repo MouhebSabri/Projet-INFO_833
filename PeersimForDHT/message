@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-03-31T20:58:21.862060849Z</date>
+  <millis>1711918701862</millis>
+  <nanos>60849</nanos>
+  <sequence>0</sequence>
+  <logger>DHT.DHTNode</logger>
+  <level>INFO</level>
+  <class>DHT.DHTNode</class>
+  <method>join</method>
+  <thread>1</thread>
+  <message>node 34224 a ajouté 7073 comme noeuds droits</message>
+</record>
+<record>
+  <date>2024-03-31T20:58:21.991037322Z</date>
+  <millis>1711918701991</millis>
+  <nanos>37322</nanos>
+  <sequence>1</sequence>
+  <logger>DHT.DHTNode</logger>
+  <level>INFO</level>
+  <class>DHT.DHTNode</class>
+  <method>join</method>
+  <thread>1</thread>
+  <message>node 88677 a ajouté 86863 comme noeuds droits</message>
+</record>
+</log>
